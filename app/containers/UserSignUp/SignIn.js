@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import BannerImg from './../../components/Layout/BannerImg';
 import { CustomButton, InputCustom } from '../../components';
 
