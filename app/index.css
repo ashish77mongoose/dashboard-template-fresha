@@ -98,31 +98,6 @@
   p {
     @apply leading-6;
   }
-
-  .font-76 {
-    @apply text-76 font-semibold;
-  }
-  .font-46 {
-    @apply text-46;
-  }
-  .font-36 {
-    @apply text-36;
-  }
-  .font-26 {
-    @apply text-26;
-  }
-  .font-22 {
-    @apply text-22;
-  }
-  .font-20 {
-    @apply text-20;
-  }
-  .font-18 {
-    @apply text-18;
-  }
-  .font-16 {
-    @apply text-16;
-  }
 }
 
 @layer components {
@@ -162,9 +137,7 @@
   .form-input {
     @apply h-[45px] border font-normal border-zinc-300 text-black px-4 py-2 rounded-md  outline-0 focus:outline-0 ring-0 focus:ring-0;
   }
-  .input-field {
-    @apply bg-white/5 w-full border border-primary-gray h-[50px] px-4 rounded-lg focus:border  focus:border-primary-btn-hover-black focus:ring-0 focus:outline-none focus:outline-0;
-  }
+
   .ax-center {
     @apply absolute left-1/2 -translate-x-1/2;
   }
@@ -213,49 +186,16 @@
   .user-login-left {
     @apply flex justify-center items-center w-full md:w-1/2 lg:mx-0 px-4 md:mx-auto;
   }
-  .min-h-screen {
-    min-height: 100svh !important;
-    min-height: 100svh !important;
-  }
-  .h-screen {
-    height: 100svh !important;
-  }
-  .business-section-wrapper {
-    @apply min-h-screen pb-24 lg:pb-0;
-  }
-  .partner-content-wrapper {
-    @apply max-w-[1000px] px-4 lg:px-0 w-full lg:mx-auto mt-4;
-  }
-  .MuiTooltip-popper {
-    @apply text-18 !important;
-  }
-  .calendar-events .react-icons {
-    stroke-width: 1px !important;
-  }
+
   .center-section {
     @apply max-w-5xl mx-auto;
   }
 
-  .basic-multi-select {
-    width: 100%;
-  }
-  .make-font-bold input {
-    font-weight: 500 !important;
-  }
-
-  .date-sm input {
-    width: 100%;
-    outline: none !important;
-    border: none !important;
-  }
   input[type='checkbox'] {
     @apply w-5 h-5 accent-primary-100 rounded-md;
   }
   input[type='radio'] {
     @apply w-5 h-5 accent-primary-100 text-primary-300;
-  }
-  .custom-modal-side {
-    @apply w-full md:w-[600px] duration-300  fixed right-0 top-0 bottom-0 z-[1000] min-h-screen shadow-[0_8px_16px_0_rgba(16,25,40,0.08)] bg-white;
   }
 }
 
@@ -263,6 +203,9 @@
   .min-h-screen {
     min-height: 100svh !important;
     min-height: 100svh !important;
+  }
+  .h-screen {
+    height: 100svh !important;
   }
 }
 
