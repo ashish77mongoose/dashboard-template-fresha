@@ -9,19 +9,19 @@ const NotFound = () => {
           <div className="rounded-full p-4 ">
             <img
               src="/images/notFound.gif"
-              className="max-w-[600px]"
+              className="lg:max-w-[600px] "
               alt="not-found"
             />
           </div>
         </div>
-        <h1 className="mt-5 text-[36px] font-bold text-slate-800 lg:text-[50px]">
+        <h1 className="lg:heading-2 font-bold heading-3  text-slate-800 ">
           404 - Page not found
         </h1>
         <p className="text-slate-600 mt-5 lg:text-lg">
           The page you are looking for doesn&apos;t exist or <br />
           has been removed.
         </p>
-        <Link to="/" className="my-10 w-full btn btn-black">
+        <Link to="/" className="my-6 mx-auto w-fit btn btn-black px-12">
           Back to home
         </Link>
       </div>

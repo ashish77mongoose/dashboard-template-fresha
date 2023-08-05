@@ -96,6 +96,7 @@ const Dashboard = () => {
 
                 <nav className="w-full py-4 pt-2  border-b border-b-zinc-100">
                   <Link
+                    tabIndex={1}
                     to="/"
                     className="py-2 w-full block text-14 px-4 text-black  hover:bg-zinc-100 rounded-sm"
                   >
@@ -113,23 +114,6 @@ const Dashboard = () => {
                   >
                     Workspaces
                   </Link>
-                </nav>
-                <nav className="w-full pt-4">
-                  <Link
-                    to="/"
-                    className="py-2 w-full block text-14 px-4 text-black  hover:bg-zinc-100 rounded-sm"
-                  >
-                    Help Center
-                  </Link>
-                  <Link
-                    to="/"
-                    className="py-2 w-full block text-14 px-4 text-black  hover:bg-zinc-100 rounded-sm"
-                  >
-                    English
-                  </Link>
-                  <div className="py-2 w-full block text-14 px-4 text-black cursor-pointer  hover:bg-zinc-100 rounded-sm">
-                    Logout
-                  </div>
                 </nav>
               </div>
             </Menu>

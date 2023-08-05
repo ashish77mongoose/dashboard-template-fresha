@@ -11,3 +11,6 @@ export const Home = loadable(() => import('./Home'), {
 export const SignIn = loadable(() => import('./UserSignUp/SignIn'), {
   fallback: <SyncLoading />,
 });
+export const NotFound = loadable(() => import('./NotFound'), {
+  fallback: <SyncLoading />,
+});

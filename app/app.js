@@ -7,7 +7,7 @@ import 'react-circular-progressbar/dist/styles.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { SignIn } from 'Containers/pageListAsync';
-import { Dashboard, Home } from './containers/pageListAsync';
+import { Dashboard, Home, NotFound } from './containers/pageListAsync';
 
 const App = () => {
   return (
@@ -17,7 +17,9 @@ const App = () => {
         <Route path="dashboard" element={<Dashboard />}>
           <Route index element={<Home />}></Route>
         </Route>
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
+
       <ToastContainer
         className={
           'lg:w-[500px] text-16 font-semibold w-[320px] p-0 !font-poppins'
