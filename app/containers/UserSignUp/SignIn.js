@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import BannerImg from './../../components/Layout/BannerImg';
-
 import { CustomButton, InputCustom } from '../../components';
 
 const SignIn = () => {
